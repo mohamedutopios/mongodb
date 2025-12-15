@@ -1,0 +1,17 @@
+
+    { "_id": "article1", "titre": "La Science des Données", "contenu": "Contenu de l'article 1...", "auteurId": "auteur1" }
+    { "_id": "article2", "titre": "L'Intelligence Artificielle", "contenu": "Contenu de l'article 2...", "auteurId": "auteur1" }
+    { "_id": "article3", "titre": "MongoDB et NoSQL", "contenu": "Contenu de l'article 3...", "auteurId": "auteur2" }
+    { "_id": "article4", "titre": "Big Data Analytics", "contenu": "Contenu de l'article 4...", "auteurId": "auteur3" }
+    { "_id": "article5", "titre": "Le Cloud Computing", "contenu": "Contenu de l'article 5...", "auteurId": "auteur3" }
+    { "_id": "article6", "titre": "Cybersécurité en 2024", "contenu": "Contenu de l'article 6...", "auteurId": "auteur4" }
+    { "_id": "article7", "titre": "L'avenir de l'IA", "contenu": "Contenu de l'article 7...", "auteurId": "auteur5" }
+    { "_id": "article8", "titre": "Blockchain Expliquée", "contenu": "Contenu de l'article 8...", "auteurId": "auteur6" }
+    { "_id": "article9", "titre": "Développement Agile", "contenu": "Contenu de l'article 9...", "auteurId": "auteur7" }
+    { "_id": "article10", "titre": "Robotique Moderne", "contenu": "Contenu de l'article 10...", "auteurId": "auteur8" }
+    { "_id": "article11", "titre": "Deep Learning", "contenu": "Contenu de l'article 11...", "auteurId": "auteur9" }
+    { "_id": "article12", "titre": "Analyse Prédictive", "contenu": "Contenu de l'article 12...", "auteurId": "auteur10" }
+    { "_id": "article13", "titre": "Technologies Wearables", "contenu": "Contenu de l'article 13...", "auteurId": "auteur11" }
+    { "_id": "article14", "titre": "Réseaux Neuronaux", "contenu": "Contenu de l'article 14...", "auteurId": "auteur12" }
+    { "_id": "article15", "titre": "Réalité Augmentée", "contenu": "Contenu de l'article 15...", "auteurId": "auteur13" }
+

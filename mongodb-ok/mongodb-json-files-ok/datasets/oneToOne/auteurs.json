@@ -1,0 +1,18 @@
+
+    { "_id": "auteur1", "nom": "Alice Dupont", "email": "alice@example.com" }
+    { "_id": "auteur2", "nom": "Bob Martin", "email": "bob@example.com" }
+    { "_id": "auteur3", "nom": "Clara Schmidt", "email": "clara@example.com" }
+    { "_id": "auteur4", "nom": "David Johnson", "email": "david@example.com" }
+    { "_id": "auteur5", "nom": "Eva Brown", "email": "eva@example.com" }
+    { "_id": "auteur6", "nom": "François Lemaire", "email": "francois@example.com" }
+    { "_id": "auteur7", "nom": "Gina Williams", "email": "gina@example.com" }
+    { "_id": "auteur8", "nom": "Hector Davis", "email": "hector@example.com" }
+    { "_id": "auteur9", "nom": "Isabelle Wilson", "email": "isabelle@example.com" }
+    { "_id": "auteur10", "nom": "Jean Dupuis", "email": "jean@example.com" }
+    { "_id": "auteur11", "nom": "Karen Smith", "email": "karen@example.com" }
+    { "_id": "auteur12", "nom": "Louis Martinez", "email": "louis@example.com" }
+    { "_id": "auteur13", "nom": "Monica Garcia", "email": "monica@example.com" }
+    { "_id": "auteur14", "nom": "Nathan Anderson", "email": "nathan@example.com" }
+    { "_id": "auteur15", "nom": "Olivia Thomas", "email": "olivia@example.com" }
+
+
