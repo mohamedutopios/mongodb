@@ -1,11 +1,11 @@
 # TP MongoDB avec Python - Analyse des Notes d'Étudiants
 
-## 📋 Données
+##  Données
 Base de données : `tp_mongodb`  
 Collection : `students`  
 200 étudiants avec leurs notes (exam, quiz, homework)
 
-## 📝 Questions
+##  Questions
 
 ### Partie 1 - Requêtes simples
 

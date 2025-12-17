@@ -1,0 +1,45 @@
+
+		<head>
+			<style type="text/css" media="screen">
+				body,html{font-family:var(--markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", system-ui, "Ubuntu", "Droid Sans", sans-serif);font-size:var(--markdown-font-size,14px);padding:0 26px;line-height:var(--markdown-line-height,22px);word-wrap:break-word}body{padding-top:1em}h1,h2,h3,h4,h5,h6,ol,p,pre,ul{margin-top:0}h2,h3,h4,h5,h6{font-weight:400;margin-bottom:.2em}img{max-width:100%;max-height:100%}a{text-decoration:none}a:hover{text-decoration:underline}a:focus,input:focus,select:focus,textarea:focus{outline:1px solid -webkit-focus-ring-color;outline-offset:-1px}p{margin-bottom:.7em}ol,ul{margin-bottom:.7em}hr{border:0;height:2px;border-bottom:2px solid}h1{padding-bottom:.3em;line-height:1.2;border-bottom-width:1px;border-bottom-style:solid;font-weight:400}table{border-collapse:collapse}th{text-align:left;border-bottom:1px solid}td,th{padding:5px 10px}table>tbody>tr+tr>td{border-top:1px solid}blockquote{margin:0 7px 0 5px;padding:0 16px 0 10px;border-left-width:5px;border-left-style:solid}code{font-family:var(--vscode-editor-font-family, "SF Mono", Monaco, Menlo, Consolas, "Ubuntu Mono", "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace);font-size:1em;line-height:1.357em}body.wordWrap pre{white-space:pre-wrap}pre.hljs code>div,pre:not(.hljs){padding:16px;border-radius:3px;overflow:auto}pre code{color:var(--vscode-editor-foreground);tab-size:4}
+			</style>
+		</head>
+		<body>
+			<h1 id="tp-mongodb-avec-python---analyse-des-notes-détudiants">TP MongoDB avec Python - Analyse des Notes d&#39;Étudiants</h1>
+<h2 id="données">Données</h2>
+<p>Base de données : <code>tp_mongodb</code><br>Collection : <code>students</code><br>200 étudiants avec leurs notes (exam, quiz, homework)</p>
+<h2 id="questions">Questions</h2>
+<h3 id="partie-1---requêtes-simples">Partie 1 - Requêtes simples</h3>
+<ol>
+<li>Affichez le premier document de la collection</li>
+<li>Comptez le nombre total d&#39;étudiants</li>
+<li>Trouvez et affichez l&#39;étudiant nommé &quot;Aurelia Menendez&quot;</li>
+<li>Trouvez l&#39;étudiant avec <code>_id = 50</code></li>
+<li>Trouvez tous les étudiants qui n&#39;ont pas de nom (name vide)</li>
+<li>Affichez uniquement les noms des 10 premiers étudiants (sans les _id)</li>
+<li>Affichez les 5 premiers étudiants triés par ordre alphabétique</li>
+</ol>
+<h3 id="partie-2---manipulation-des-tableaux">Partie 2 - Manipulation des tableaux</h3>
+<ol start="8">
+<li>Pour l&#39;étudiant avec <code>_id = 0</code>, extrayez et affichez sa note d&#39;examen</li>
+<li>Calculez la moyenne des 3 notes de l&#39;étudiant avec <code>_id = 1</code></li>
+<li>Utilisez <code>$unwind</code> pour déplier le tableau scores et afficher les 5 premiers résultats</li>
+</ol>
+<h3 id="partie-3---agrégations">Partie 3 - Agrégations</h3>
+<ol start="11">
+<li>Calculez la moyenne générale de chaque étudiant et affichez le top 10</li>
+<li>Calculez la moyenne de tous les étudiants pour chaque type d&#39;évaluation (exam, quiz, homework)</li>
+<li>Pour chaque type d&#39;évaluation, trouvez qui a eu la meilleure note</li>
+<li>Pour chaque étudiant, calculez le minimum, maximum et moyenne de ses notes</li>
+<li>Comptez combien d&#39;étudiants ont une moyenne générale supérieure à 70</li>
+</ol>
+<h3 id="partie-4---mises-à-jour">Partie 4 - Mises à jour</h3>
+<ol start="16">
+<li>Ajoutez un champ <code>moyenne</code> à tous les documents contenant la moyenne des 3 notes</li>
+<li>Ajoutez un champ <code>niveau</code> selon la moyenne : &quot;Excellent&quot; (≥80), &quot;Bien&quot; (≥60), &quot;Passable&quot; (≥40), &quot;Insuffisant&quot; (&lt;40)</li>
+<li>Supprimez la note de homework la plus faible de chaque étudiant</li>
+<li>Mettez à jour le nom de l&#39;étudiant avec <code>_id = 113</code> (qui est vide) en &quot;Nom Inconnu&quot;</li>
+</ol>
+<hr>
+
+		</body>
